@@ -2,6 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import CalculatorRefactored from './components/CalculatorRefactored.vue'
+import Todos from './components/Todos.vue'
 </script>
 
 <template>
@@ -13,7 +14,8 @@ import CalculatorRefactored from './components/CalculatorRefactored.vue'
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
       </nav> -->
-      <CalculatorRefactored/>
+      <Todos />
+      <!-- <CalculatorRefactored/> -->
     </div>
   </div>
 
